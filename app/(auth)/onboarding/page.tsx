@@ -1,5 +1,6 @@
 import AccountProfile from "@/components/forms/AccountProfile";
 import { currentUser } from "@clerk/nextjs/server";
+import Link from "next/link";
 
 
 async function Page() {
